@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa1058a81e33544bb6257c041c318a5, type: 3}
+  m_Name: Computer
+  m_EditorClassIdentifier: Assembly-CSharp::NPCData
+  nombreNPC: Computer
+  imageNPC: {fileID: 21300000, guid: 01870c593486d0847b26f1d4560b77fb, type: 3}
+  fondoImagenNPC: {fileID: 21300000, guid: 2ae7096f78005bb4d9f33026423abd9f, type: 3}
+  fondoTexto: {fileID: 21300000, guid: 25f917c38401d0749826579382d1d97a, type: 3}
+  dialogos:
+  - Bueno diaas, se que ya sabes conducir muy bien y todo, pero tienes que conocer
+    bien las herramientas de tu nueva nave...
+  - Okay, lo primero que tienes que hacer es saber que ahora tienes turbo y asi
+  - okkkk???'
