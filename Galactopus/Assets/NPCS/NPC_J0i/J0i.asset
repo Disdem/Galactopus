@@ -62,25 +62,29 @@ MonoBehaviour:
   - texto: "RT dispara el arma principal. Puedes utilizarla de manera continua, as\xED
       que no necesitas preocuparte por la munici\xF3n del disparo normal."
     duracion: 5
-  - texto: "Todav\xEDa no has roto nada."
+  - texto: "Todav\xEDa no has roto nada. 19"
     duracion: 2
   - texto: Ahora hablemos de velocidad.
     duracion: 2
-  - texto: Con X puedes reducir la velocidad de la nave.
+  - texto: 'Con X puedes reducir la velocidad de la nave. 21
+
+'
     duracion: 4
-  - texto: "S\xED. No siempre necesitas ir a m\xE1xima velocidad."
+  - texto: "S\xED. No siempre necesitas ir a m\xE1xima velocidad. 22\n"
     duracion: 3
-  - texto: "No es una filosof\xEDa. Es f\xEDsica."
+  - texto: "No es una filosof\xEDa. Es f\xEDsica. 23\n"
     duracion: 3
-  - texto: Y con B activas el boost.
+  - texto: Y con B activas el boost. 24
     duracion: 3
   - texto: "El boost aumenta considerablemente tu velocidad. \xDAsalo para desplazarte
       r\xE1pidamente, esquivar ataques o simplemente porque aparentemente no sabes
       ir despacio."
     duracion: 5
-  - texto: .......
+  - texto: '....... 26
+
+'
     duracion: 2
-  - texto: "Tambi\xE9n tienes dos maniobras evasivas."
+  - texto: "Tambi\xE9n tienes dos maniobras evasivas. 27"
     duracion: 2
   - texto: Pulsa RB para hacer un dash hacia la derecha.
     duracion: 3
@@ -90,15 +94,17 @@ MonoBehaviour:
       r\xE1pidamente."
     duracion: 4
   - texto: "Son especialmente \xFAtiles para esquivar proyectiles o reposicionarte
-      r\xE1pidamente."
+      r\xE1pidamente. 31"
     duracion: 4
   - texto: Puedes intentarlo.
     duracion: 2
-  - texto: ......
+  - texto: '...... 33
+
+'
     duracion: 2
   - texto: "Ahora viene una de las mejoras m\xE1s importantes de la nave."
     duracion: 3
-  - texto: "Mucho m\xE1s."
+  - texto: "Mucho m\xE1s. 35\n"
     duracion: 2
   - texto: "Tu nave puede cambiar instant\xE1neamente entre dos colores: blanco y
       negro."
@@ -109,91 +115,104 @@ MonoBehaviour:
     duracion: 3
   - texto: "Si est\xE1s en negro, A te devuelve al blanco."
     duracion: 3
-  - texto: "Si est\xE1s en negro, A te devuelve al blanco."
+  - texto: "Si est\xE1s en negro, A te devuelve al blanco. 40\n"
     duracion: 3
   - texto: "La parte sencilla termina aqu\xED."
     duracion: 3
   - texto: "Los colores no son solamente visuales. Determinan c\xF3mo interact\xFAas
       con la energ\xEDa que te rodea."
     duracion: 5
-  - texto: "Cuando tu nave est\xE1 en blanco, los proyectiles blancos no pueden da\xF1arte."
+  - texto: "Cuando tu nave est\xE1 en blanco, los proyectiles blancos no pueden da\xF1arte.
+      43\n"
     duracion: 4
-  - texto: Exactamente
+  - texto: 'Exactamente 44
+
+'
     duracion: 2
   - texto: "Los proyectiles blancos que entren en contacto contigo ser\xE1n absorbidos
       por la nave y convertir\xE1n esa energ\xEDa en carga para tu ataque especial."
     duracion: 5
-  - texto: 'Pero recuerda: esto solamente funciona mientras seas blanco.'
+  - texto: 'Pero recuerda: esto solamente funciona mientras seas blanco. 46
+
+'
     duracion: 4
-  - texto: Correcto.
+  - texto: 'Correcto. 47
+
+'
     duracion: 2
   - texto: "Y cuando est\xE9s en negro, podr\xE1s absorber los proyectiles negros
       de la misma manera."
     duracion: 4
-  - texto: Exactamente.
+  - texto: 'Exactamente. 49
+
+'
     duracion: 2
   - texto: "Pero la energ\xEDa tambi\xE9n afecta a tus ataques."
     duracion: 3
   - texto: "Cuando dispares a un enemigo de un color opuesto al tuyo, le infligir\xE1s
       el doble de da\xF1o."
     duracion: 5
-  - texto: Exactamente.
+  - texto: 'Exactamente. 52
+
+'
     duracion: 2
   - texto: "Si tu nave est\xE1 en blanco y atacas a un enemigo negro, causar\xE1s
-      da\xF1o doble."
+      da\xF1o doble. 53\n"
     duracion: 4
-  - texto: "Y si est\xE1s en negro y atacas a un enemigo blanco, ocurrir\xE1 lo mismo."
+  - texto: "Y si est\xE1s en negro y atacas a un enemigo blanco, ocurrir\xE1 lo mismo.
+      54"
     duracion: 4
-  - texto: "Ahora lo est\xE1s entendiendo."
+  - texto: "Ahora lo est\xE1s entendiendo. 55\n"
     duracion: 2
   - texto: .....
     duracion: 2
-  - texto: "Hay algo m\xE1s que debes recordar."
+  - texto: "Hay algo m\xE1s que debes recordar. 57\n"
     duracion: 2
-  - texto: "No puedes atravesar objetos de energ\xEDa del color contrario."
+  - texto: "No puedes atravesar objetos de energ\xEDa del color contrario. 58\n"
     duracion: 3
   - texto: "Por ejemplo, si tu nave est\xE1 en blanco y encuentras una barrera negra,
       no intentes atravesarla."
     duracion: 4
-  - texto: "Porque la nave ser\xE1 destruida."
+  - texto: "Porque la nave ser\xE1 destruida. 60\n"
     duracion: 3
-  - texto: Y ocurre lo mismo al contrario.
+  - texto: Y ocurre lo mismo al contrario. 61
     duracion: 2
   - texto: "Si est\xE1s en negro, una barrera blanca destruir\xE1 la nave si intentas
-      atravesarla."
+      atravesarla. 62"
     duracion: 3
-  - texto: Exactamente.
+  - texto: Exactamente. 63
     duracion: 1.5
   - texto: Y no pienses solamente en paredes.
     duracion: 1.5
   - texto: "Puede tratarse de una barrera, un rayo, un campo de energ\xEDa, un objeto
       o cualquier otra estructura que utilice esta tecnolog\xEDa."
     duracion: 4
-  - texto: Ci
+  - texto: Ci  66
     duracion: 1
-  - texto: Ahora, tu arma secundaria.
+  - texto: Ahora, tu arma secundaria. 67
     duracion: 2
-  - texto: Tenemos algo mejor.
+  - texto: Tenemos algo mejor. 68
     duracion: 2
   - texto: "Mant\xE9n presionado LT para utilizar el ca\xF1\xF3n cargado."
     duracion: 2.5
   - texto: "El ca\xF1\xF3n libera una descarga concentrada capaz de afectar un \xE1rea
       mucho mayor. Piensa en \xE9l como una bomba."
     duracion: 5
-  - texto: "Pero hay una limitaci\xF3n."
+  - texto: "Pero hay una limitaci\xF3n. 71"
     duracion: 2
   - texto: "El ca\xF1\xF3n utiliza munici\xF3n especial. Puedes llevar un m\xE1ximo
-      de tres cargas al mismo tiempo. "
+      de tres cargas al mismo tiempo. 72 "
     duracion: 5
-  - texto: "Entonces LT no har\xE1 absolutamente nada."
+  - texto: "Entonces LT no har\xE1 absolutamente nada. 73"
     duracion: 2
-  - texto: "Encontrando los suministros de munici\xF3n que aparecen durante el recorrido"
+  - texto: "Encontrando los suministros de munici\xF3n que aparecen durante el recorrido
+      74"
     duracion: 4
   - texto: Asi que no desperdicies las cargas contra el primer enemigo que veas.
     duracion: 4
-  - texto: No eres un mapache...
+  - texto: No eres un mapache... 76
     duracion: 4
-  - texto: Bien, yo creo que ya te las puedes arreglar tu solo
+  - texto: Bien, yo creo que ya te las puedes arreglar tu solo 77
     duracion: 4
   - texto: No
     duracion: 1.5
