@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fa1058a81e33544bb6257c041c318a5, type: 3}
-  m_Name: Computer
+  m_Name: J0i
   m_EditorClassIdentifier: Assembly-CSharp::NPCData
-  nombreNPC: Computer
+  nombreNPC: J0I
   imageNPC: {fileID: 21300000, guid: 01870c593486d0847b26f1d4560b77fb, type: 3}
-  fondoImagenNPC: {fileID: 21300000, guid: 2ae7096f78005bb4d9f33026423abd9f, type: 3}
+  fondoImagenNPC: {fileID: 21300000, guid: 709aa6bf33ee128419f61525a65e36c5, type: 3}
   fondoTexto: {fileID: 21300000, guid: 25f917c38401d0749826579382d1d97a, type: 3}
   dialogos:
-  - Bueno diaas, se que ya sabes conducir muy bien y todo, pero tienes que conocer
-    bien las herramientas de tu nueva nave...
-  - Okay, lo primero que tienes que hacer es saber que ahora tienes turbo y asi
-  - okkkk???'
+  - Heeey buenos dias, listo para otro dia lleno de situaciones que nos pueden quitar
+    la vida?
+  - Bien, se que eres el mejor piloto de la galaxia, pero tenemos que repasar algunas
+    mejoras que le hice a la nave
+  - 'Bien, empecemos '
