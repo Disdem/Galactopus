@@ -194,7 +194,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118217455}
   m_CullTransparentMesh: 1
---- !u!1 &126777930
+--- !u!1 &120568662
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,38 +202,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 126777931}
-  - component: {fileID: 126777932}
-  - component: {fileID: 126777933}
+  - component: {fileID: 120568663}
+  - component: {fileID: 120568665}
+  - component: {fileID: 120568664}
   m_Layer: 0
-  m_Name: Dialogue 2
+  m_Name: J0I_Dialogue (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &126777931
+--- !u!4 &120568663
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126777930}
+  m_GameObject: {fileID: 120568662}
   serializedVersion: 2
   m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
-  m_LocalPosition: {x: -57.5, y: 2.6999998, z: 85.700005}
+  m_LocalPosition: {x: -46.3, y: 2.1, z: 69.1}
   m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 438675594}
+  m_Father: {fileID: 399616708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &126777932
+--- !u!114 &120568664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120568662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
+--- !u!65 &120568665
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126777930}
+  m_GameObject: {fileID: 120568662}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -248,19 +261,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &126777933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126777930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
-  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
 --- !u!1 &162383915
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399616708}
   m_Layer: 0
-  m_Name: DIaolgues_Triggers
+  m_Name: DIaolgues_Triggers_Tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,77 +629,23 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 448062308}
-  - {fileID: 438675594}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &438675593
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 438675594}
-  m_Layer: 0
-  m_Name: J0i
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &438675594
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438675593}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
   - {fileID: 703423424}
-  - {fileID: 126777931}
-  - {fileID: 589638150}
-  m_Father: {fileID: 399616708}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &448062307
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 448062308}
-  m_Layer: 0
-  m_Name: Octo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &448062308
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448062307}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
   - {fileID: 1792876706}
-  - {fileID: 1232879637}
-  - {fileID: 2109668695}
-  m_Father: {fileID: 399616708}
+  - {fileID: 2071753075}
+  - {fileID: 2144618700}
+  - {fileID: 1911794840}
+  - {fileID: 1330066029}
+  - {fileID: 120568663}
+  - {fileID: 955606904}
+  - {fileID: 969464602}
+  - {fileID: 544441606}
+  - {fileID: 1881722282}
+  - {fileID: 1956867136}
+  - {fileID: 987119908}
+  - {fileID: 1903968989}
+  - {fileID: 1518582107}
+  - {fileID: 1485314893}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495419045
 GameObject:
@@ -776,7 +722,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495419045}
   m_CullTransparentMesh: 1
---- !u!1 &589638149
+--- !u!1 &544441605
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -784,51 +730,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 589638150}
-  - component: {fileID: 589638152}
-  - component: {fileID: 589638151}
+  - component: {fileID: 544441606}
+  - component: {fileID: 544441608}
+  - component: {fileID: 544441607}
   m_Layer: 0
-  m_Name: Dialogue 3
+  m_Name: Octo_Dialogue (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &589638150
+--- !u!4 &544441606
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589638149}
+  m_GameObject: {fileID: 544441605}
   serializedVersion: 2
   m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
-  m_LocalPosition: {x: -92, y: 4.3, z: 137}
+  m_LocalPosition: {x: -69.3, y: 3.3, z: 103.1}
   m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 438675594}
+  m_Father: {fileID: 399616708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &589638151
+--- !u!114 &544441607
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589638149}
+  m_GameObject: {fileID: 544441605}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
-  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
---- !u!65 &589638152
+  personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
+--- !u!65 &544441608
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589638149}
+  m_GameObject: {fileID: 544441605}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -855,7 +801,7 @@ GameObject:
   - component: {fileID: 703423425}
   - component: {fileID: 703423426}
   m_Layer: 0
-  m_Name: Dialogue 1
+  m_Name: J0I_Dialogue (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -870,11 +816,11 @@ Transform:
   m_GameObject: {fileID: 703423423}
   serializedVersion: 2
   m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
-  m_LocalPosition: {x: -26.500002, y: 1.2, z: 39.500004}
+  m_LocalPosition: {x: -3.9, y: 0.1, z: 5.9}
   m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 438675594}
+  m_Father: {fileID: 399616708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &703423425
 BoxCollider:
@@ -979,6 +925,207 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0649c4780090e33438cf826b6e73477b, type: 3}
+--- !u!1 &955606903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955606904}
+  - component: {fileID: 955606906}
+  - component: {fileID: 955606905}
+  m_Layer: 0
+  m_Name: Octo_Dialogue (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955606904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955606903}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -56.7, y: 2.7, z: 84.3}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &955606905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955606903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
+--- !u!65 &955606906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955606903}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &969464601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 969464602}
+  - component: {fileID: 969464604}
+  - component: {fileID: 969464603}
+  m_Layer: 0
+  m_Name: J0I_Dialogue (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &969464602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969464601}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -64.3, y: 2.9, z: 95.8}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &969464603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969464601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
+--- !u!65 &969464604
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969464601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &987119907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987119908}
+  - component: {fileID: 987119910}
+  - component: {fileID: 987119909}
+  m_Layer: 0
+  m_Name: J0I_Dialogue (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &987119908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987119907}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -78.7, y: 3.6, z: 117.3}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &987119909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987119907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
+--- !u!65 &987119910
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987119907}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1214003145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,73 +1384,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1232879636
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1232879637}
-  - component: {fileID: 1232879638}
-  - component: {fileID: 1232879639}
-  m_Layer: 0
-  m_Name: Dialogue 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1232879637
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232879636}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
-  m_LocalPosition: {x: -40.2, y: 1.9, z: 59.9}
-  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 448062308}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1232879638
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232879636}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1232879639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232879636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
-  personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
 --- !u!1 &1295743749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,6 +1459,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295743749}
   m_CullTransparentMesh: 1
+--- !u!1 &1330066028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1330066029}
+  - component: {fileID: 1330066031}
+  - component: {fileID: 1330066030}
+  m_Layer: 0
+  m_Name: Octo_Dialogue (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1330066029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330066028}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -38.2, y: 1.8, z: 56.8}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1330066030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330066028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
+--- !u!65 &1330066031
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330066028}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1400890829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,6 +1566,140 @@ RectTransform:
   m_AnchoredPosition: {x: -143, y: -106}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1485314892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485314893}
+  - component: {fileID: 1485314895}
+  - component: {fileID: 1485314894}
+  m_Layer: 0
+  m_Name: Octo_Dialogue (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1485314893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485314892}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -84.79, y: 4.07, z: 126.14}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1485314894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485314892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
+--- !u!65 &1485314895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485314892}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1518582106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1518582107}
+  - component: {fileID: 1518582109}
+  - component: {fileID: 1518582108}
+  m_Layer: 0
+  m_Name: J0I_Dialogue (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1518582107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518582106}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -82.68, y: 3.79, z: 123.22}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1518582108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518582106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
+--- !u!65 &1518582109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518582106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1624861773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,7 +2214,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -407.97528, w: 0}
+  m_margin: {x: 0, y: 0, z: -846.93787, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2034,7 +2315,7 @@ GameObject:
   - component: {fileID: 1792876707}
   - component: {fileID: 1792876708}
   m_Layer: 0
-  m_Name: Dialogue 1
+  m_Name: Octo_Dialogue (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2049,11 +2330,11 @@ Transform:
   m_GameObject: {fileID: 1792876705}
   serializedVersion: 2
   m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
-  m_LocalPosition: {x: -6.11, y: 0.29, z: 9.1}
+  m_LocalPosition: {x: -10.4, y: 0.5, z: 15.5}
   m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 448062308}
+  m_Father: {fileID: 399616708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1792876707
 BoxCollider:
@@ -2164,6 +2445,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857317107}
   m_CullTransparentMesh: 1
+--- !u!1 &1881722281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1881722282}
+  - component: {fileID: 1881722284}
+  - component: {fileID: 1881722283}
+  m_Layer: 0
+  m_Name: J0I_Dialogue (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1881722282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881722281}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -72.7, y: 3.3, z: 108.3}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1881722283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881722281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
+--- !u!65 &1881722284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881722281}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1895505214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,8 +2546,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -341, y: -387}
-  m_SizeDelta: {x: 782.6149, y: 101}
+  m_AnchoredPosition: {x: -136.264, y: -387}
+  m_SizeDelta: {x: 1277.825, y: 101}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1895505216
 MonoBehaviour:
@@ -2239,6 +2587,207 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895505214}
   m_CullTransparentMesh: 1
+--- !u!1 &1903968988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1903968989}
+  - component: {fileID: 1903968991}
+  - component: {fileID: 1903968990}
+  m_Layer: 0
+  m_Name: Octo_Dialogue (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1903968989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903968988}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -81.2, y: 3.9, z: 120.8}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1903968990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903968988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
+--- !u!65 &1903968991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903968988}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1911794839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1911794840}
+  - component: {fileID: 1911794842}
+  - component: {fileID: 1911794841}
+  m_Layer: 0
+  m_Name: J0I_Dialogue (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1911794840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911794839}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -32.9, y: 1.4, z: 49.2}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1911794841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911794839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
+--- !u!65 &1911794842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911794839}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1956867135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956867136}
+  - component: {fileID: 1956867138}
+  - component: {fileID: 1956867137}
+  m_Layer: 0
+  m_Name: Octo_Dialogue (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1956867136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956867135}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -75.7, y: 3.6, z: 112.6}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1956867137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956867135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
+--- !u!65 &1956867138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956867135}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1982411455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2526,7 +3075,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014148905}
   m_CullTransparentMesh: 1
---- !u!1 &2109668694
+--- !u!1 &2071753074
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2534,51 +3083,118 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2109668695}
-  - component: {fileID: 2109668697}
-  - component: {fileID: 2109668696}
+  - component: {fileID: 2071753075}
+  - component: {fileID: 2071753077}
+  - component: {fileID: 2071753076}
   m_Layer: 0
-  m_Name: Dialogue 3
+  m_Name: J0I_Dialogue (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2109668695
+--- !u!4 &2071753075
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109668694}
+  m_GameObject: {fileID: 2071753074}
   serializedVersion: 2
   m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
-  m_LocalPosition: {x: -67.7, y: 3.2, z: 100.8}
+  m_LocalPosition: {x: -16.9, y: 0.7, z: 25.4}
   m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 448062308}
+  m_Father: {fileID: 399616708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2109668696
+--- !u!114 &2071753076
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109668694}
+  m_GameObject: {fileID: 2071753074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  personaje: {fileID: 11400000, guid: 853b90e28f0493e4ca3b2faa9de9c6f9, type: 2}
+--- !u!65 &2071753077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071753074}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2144618699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144618700}
+  - component: {fileID: 2144618702}
+  - component: {fileID: 2144618701}
+  m_Layer: 0
+  m_Name: Octo_Dialogue (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2144618700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144618699}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.012616962, y: -0.29149866, z: -0.0038440593, w: 0.9564803}
+  m_LocalPosition: {x: -22.8, y: 1.1, z: 34}
+  m_LocalScale: {x: 23.619259, y: 15.831576, z: 0.027724}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 399616708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2144618701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144618699}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de1bf9d872c15b4429419a969c27d698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
   personaje: {fileID: 11400000, guid: 0a27d2078dbdb3944ba0b20162e06ed0, type: 2}
---- !u!65 &2109668697
+--- !u!65 &2144618702
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109668694}
+  m_GameObject: {fileID: 2144618699}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
