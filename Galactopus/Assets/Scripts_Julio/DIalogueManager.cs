@@ -45,23 +45,25 @@ public class DIalogueManager : MonoBehaviour
 
         if (indiceActual < npc.dialogos.Count)
         {
+            LineaDialogo dialogoActual = npc.dialogos[indiceActual];
+
             uiImagenNPC.sprite = npc.imageNPC;
             uiFondoImagenNPC.sprite = npc.fondoImagenNPC;
             uiNombreNPC.text = npc.nombreNPC;
-            uiTextoDialogo.text = npc.dialogos[indiceActual];
+            uiTextoDialogo.text = dialogoActual.texto;
             uiFondoTexto.sprite = npc.fondoTexto;
 
             indiceDialogos[npc]++;
             panelDialogo.SetActive(true);
 
             if (corrutionaDcultar != null) StopCoroutine(corrutionaDcultar);
-            corrutionaDcultar = StartCoroutine(OcultarDialogoTardado());
+            corrutionaDcultar = StartCoroutine(OcultarDialogoTardado(dialogoActual.duracion));
         }
     }
 
-    private IEnumerator OcultarDialogoTardado()
+    private IEnumerator OcultarDialogoTardado(float duracion)
     {
-        yield return new WaitForSeconds(duracionEnPantalla);
+        yield return new WaitForSeconds(duracion);
         panelDialogo.SetActive(false);
     }
 }

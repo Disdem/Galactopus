@@ -17,6 +17,100 @@ MonoBehaviour:
   fondoImagenNPC: {fileID: 21300000, guid: 9f57495d53c489346865613810fd9e69, type: 3}
   fondoTexto: {fileID: 21300000, guid: fcfba45733944b9469d043250b3a61ee, type: 3}
   dialogos:
-  - Que rollo plebes...
-  - Voy a llegar hechando chingazos y todo el rollo
-  - Aguas lavergi plebes
+  - texto: "Ser\xE1n buenos d\xEDas para ti. Yo estuve ocupado."
+    duracion: 3
+  - texto: Mejorando mis tiempos de vuelo.
+    duracion: 3
+  - texto: Exactamente.
+    duracion: 2
+  - texto: "\xBFRepasar? J0I, podr\xEDa volar esta nave con los ojos cerrados."
+    duracion: 4
+  - texto: "Sab\xEDa que pod\xEDamos entendernos."
+    duracion: 2
+  - texto: "\xBFEso es todo?"
+    duracion: 2
+  - texto: "Pens\xE9 que ibas a explicarme algo complicado."
+    duracion: 3
+  - texto: Muy graciosa.
+    duracion: 2
+  - texto: "Por fin algo que no necesita explicaci\xF3n."
+    duracion: 3
+  - texto: "\xBFProbablemente?"
+    duracion: 2
+  - texto: Ah. Mi parte favorita.
+    duracion: 3
+  - texto: "As\xED que puedo moverme en una direcci\xF3n y disparar hacia otra."
+    duracion: 4
+  - texto: "\xBFVes? Todo bajo control."
+    duracion: 2
+  - texto: Dame tiempo.
+    duracion: 2
+  - texto: Finalmente.
+    duracion: 2
+  - texto: "\xBFReducirla?"
+    duracion: 2
+  - texto: "No estoy segura de que esa filosof\xEDa sea para m\xED."
+    duracion: 4
+  - texto: Detalles
+    duracion: 4
+  - texto: "Eso s\xED suena m\xE1s como yo."
+    duracion: 3
+  - texto: "Ahora s\xED est\xE1s entendiendo mi estilo."
+    duracion: 3
+  - texto: "\xBFY si simplemente acelero y paso por encima?"
+    duracion: 3
+  - texto: "Ese \"puedes intentarlo\" son\xF3 preocupantemente parecido a una amenaza."
+    duracion: 4
+  - texto: "\xBFM\xE1s importante que disparar?"
+    duracion: 2
+  - texto: Sencillo.
+    duracion: 2
+  - texto: "\xBFSon absorbidos?"
+    duracion: 2
+  - texto: Entonces cambio a blanco cuando vea proyectiles blancos.
+    duracion: 4
+  - texto: "As\xED que el color correcto puede convertir un ataque enemigo en energ\xEDa
+      para m\xED."
+    duracion: 4
+  - texto: "Eso s\xED es una mejora."
+    duracion: 2
+  - texto: "\xBFDe qu\xE9 manera?"
+    duracion: 2
+  - texto: Blanco contra negro.
+    duracion: 2
+  - texto: Entonces puedo cambiar de color dependiendo de lo que tenga enfrente.
+    duracion: 4
+  - texto: "Ya lo hab\xEDa entendido desde el principio."
+    duracion: 3
+  - texto: "Sab\xEDa que hab\xEDa una trampa."
+    duracion: 2
+  - texto: "\xBFPor qu\xE9?"
+    duracion: 2
+  - texto: Ah.
+    duracion: 1
+  - texto: Entonces tengo que coincidir con el color de la barrera.
+    duracion: 4
+  - texto: "Entonces el color tambi\xE9n determina por d\xF3nde puedo pasar."
+    duracion: 3
+  - texto: Eso cambia bastante las cosas.
+    duracion: 2
+  - texto: "\xBFTenemos una?"
+    duracion: 2
+  - texto: Te escucho
+    duracion: 1
+  - texto: Eso definitivamente es mejor.
+    duracion: 2.5
+  - texto: Siempre hay una
+    duracion: 2
+  - texto: "\xBFY si llego a cero?"
+    duracion: 2
+  - texto: "\xBFY c\xF3mo recupero munici\xF3n?"
+    duracion: 2
+  - texto: No prometo nada. Igual lo uso para explotar lunas
+    duracion: 2
+  - texto: Puedo hacerlo hasta con los ojos cerrados
+    duracion: 2
+  - texto: "\xBFNo?"
+    duracion: 2
+  - texto: Meno
+    duracion: 2

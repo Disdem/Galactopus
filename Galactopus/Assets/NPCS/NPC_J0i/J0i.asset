@@ -13,12 +13,189 @@ MonoBehaviour:
   m_Name: J0i
   m_EditorClassIdentifier: Assembly-CSharp::NPCData
   nombreNPC: J0I
-  imageNPC: {fileID: 21300000, guid: 01870c593486d0847b26f1d4560b77fb, type: 3}
+  imageNPC: {fileID: 21300000, guid: 4689eafb0ec9e8b4c9c5596dc6d847e4, type: 3}
   fondoImagenNPC: {fileID: 21300000, guid: 709aa6bf33ee128419f61525a65e36c5, type: 3}
   fondoTexto: {fileID: 21300000, guid: 25f917c38401d0749826579382d1d97a, type: 3}
   dialogos:
-  - Heeey buenos dias, listo para otro dia lleno de situaciones que nos pueden quitar
-    la vida?
-  - Bien, se que eres el mejor piloto de la galaxia, pero tenemos que repasar algunas
-    mejoras que le hice a la nave
-  - 'Bien, empecemos '
+  - texto: "Heeey, buenos d\xEDas. \xBFListo para otro d\xEDa lleno de situaciones
+      que nos pueden quitar la vida?"
+    duracion: 4
+  - texto: "\xBFOcupado haciendo qu\xE9?"
+    duracion: 3
+  - texto: Ah, claro. Porque dormir, comer y descansar son actividades demasiado
+      convencionales para el mejor piloto de la galaxia.
+    duracion: 4
+  - texto: "Bien. Ya que terminaste de admirarte a ti mismo, s\xE9 que eres el mejor
+      piloto de la galaxia, pero tenemos que repasar algunas mejoras que le hice
+      a la nave."
+    duracion: 4
+  - texto: "Perfecto. Entonces esto ser\xE1 muy r\xE1pido."
+    duracion: 2
+  - texto: "Empezando por lo m\xE1s b\xE1sico."
+    duracion: 2
+  - texto: "Primero, el movimiento. Usa el joystick izquierdo para controlar la direcci\xF3n
+      de la nave."
+    duracion: 4
+  - texto: "S\xED."
+    duracion: 2
+  - texto: "No quer\xEDa sobrecargarte tan temprano."
+    duracion: 3
+  - texto: "Lo s\xE9."
+    duracion: 2
+  - texto: "Puedes moverte libremente en todas las direcciones. No necesitas mantener
+      una posici\xF3n fija, as\xED que aprovecha el espacio."
+    duracion: 4
+  - texto: "Tranquilo. Todav\xEDa no llegamos a la parte donde probablemente vas
+      a intentar hacer algo innecesariamente peligroso."
+    duracion: 4
+  - texto: Te conozco....
+    duracion: 2
+  - texto: Ahora vamos con el armamento.
+    duracion: 3
+  - texto: "Usa el joystick derecho para apuntar. La nave disparar\xE1 hacia la direcci\xF3n
+      que marques."
+    duracion: 4
+  - texto: Exactamente.
+    duracion: 1.5
+  - texto: Para disparar normalmente, utiliza RT.
+    duracion: 3
+  - texto: "RT dispara el arma principal. Puedes utilizarla de manera continua, as\xED
+      que no necesitas preocuparte por la munici\xF3n del disparo normal."
+    duracion: 5
+  - texto: "Todav\xEDa no has roto nada."
+    duracion: 2
+  - texto: Ahora hablemos de velocidad.
+    duracion: 2
+  - texto: Con X puedes reducir la velocidad de la nave.
+    duracion: 4
+  - texto: "S\xED. No siempre necesitas ir a m\xE1xima velocidad."
+    duracion: 3
+  - texto: "No es una filosof\xEDa. Es f\xEDsica."
+    duracion: 3
+  - texto: Y con B activas el boost.
+    duracion: 3
+  - texto: "El boost aumenta considerablemente tu velocidad. \xDAsalo para desplazarte
+      r\xE1pidamente, esquivar ataques o simplemente porque aparentemente no sabes
+      ir despacio."
+    duracion: 5
+  - texto: .......
+    duracion: 2
+  - texto: "Tambi\xE9n tienes dos maniobras evasivas."
+    duracion: 2
+  - texto: Pulsa RB para hacer un dash hacia la derecha.
+    duracion: 3
+  - texto: Y LB para hacer un dash hacia la izquierda.
+    duracion: 3
+  - texto: "Son especialmente \xFAtiles para esquivar proyectiles o reposicionarte
+      r\xE1pidamente."
+    duracion: 4
+  - texto: "Son especialmente \xFAtiles para esquivar proyectiles o reposicionarte
+      r\xE1pidamente."
+    duracion: 4
+  - texto: Puedes intentarlo.
+    duracion: 2
+  - texto: ......
+    duracion: 2
+  - texto: "Ahora viene una de las mejoras m\xE1s importantes de la nave."
+    duracion: 3
+  - texto: "Mucho m\xE1s."
+    duracion: 2
+  - texto: "Tu nave puede cambiar instant\xE1neamente entre dos colores: blanco y
+      negro."
+    duracion: 5
+  - texto: Pulsa A para cambiar al color contrario.
+    duracion: 4
+  - texto: "Si est\xE1s en blanco, A te cambia a negro."
+    duracion: 3
+  - texto: "Si est\xE1s en negro, A te devuelve al blanco."
+    duracion: 3
+  - texto: "Si est\xE1s en negro, A te devuelve al blanco."
+    duracion: 3
+  - texto: "La parte sencilla termina aqu\xED."
+    duracion: 3
+  - texto: "Los colores no son solamente visuales. Determinan c\xF3mo interact\xFAas
+      con la energ\xEDa que te rodea."
+    duracion: 5
+  - texto: "Cuando tu nave est\xE1 en blanco, los proyectiles blancos no pueden da\xF1arte."
+    duracion: 4
+  - texto: Exactamente
+    duracion: 2
+  - texto: "Los proyectiles blancos que entren en contacto contigo ser\xE1n absorbidos
+      por la nave y convertir\xE1n esa energ\xEDa en carga para tu ataque especial."
+    duracion: 5
+  - texto: 'Pero recuerda: esto solamente funciona mientras seas blanco.'
+    duracion: 4
+  - texto: Correcto.
+    duracion: 2
+  - texto: "Y cuando est\xE9s en negro, podr\xE1s absorber los proyectiles negros
+      de la misma manera."
+    duracion: 4
+  - texto: Exactamente.
+    duracion: 2
+  - texto: "Pero la energ\xEDa tambi\xE9n afecta a tus ataques."
+    duracion: 3
+  - texto: "Cuando dispares a un enemigo de un color opuesto al tuyo, le infligir\xE1s
+      el doble de da\xF1o."
+    duracion: 5
+  - texto: Exactamente.
+    duracion: 2
+  - texto: "Si tu nave est\xE1 en blanco y atacas a un enemigo negro, causar\xE1s
+      da\xF1o doble."
+    duracion: 4
+  - texto: "Y si est\xE1s en negro y atacas a un enemigo blanco, ocurrir\xE1 lo mismo."
+    duracion: 4
+  - texto: "Ahora lo est\xE1s entendiendo."
+    duracion: 2
+  - texto: .....
+    duracion: 2
+  - texto: "Hay algo m\xE1s que debes recordar."
+    duracion: 2
+  - texto: "No puedes atravesar objetos de energ\xEDa del color contrario."
+    duracion: 3
+  - texto: "Por ejemplo, si tu nave est\xE1 en blanco y encuentras una barrera negra,
+      no intentes atravesarla."
+    duracion: 4
+  - texto: "Porque la nave ser\xE1 destruida."
+    duracion: 3
+  - texto: Y ocurre lo mismo al contrario.
+    duracion: 2
+  - texto: "Si est\xE1s en negro, una barrera blanca destruir\xE1 la nave si intentas
+      atravesarla."
+    duracion: 3
+  - texto: Exactamente.
+    duracion: 1.5
+  - texto: Y no pienses solamente en paredes.
+    duracion: 1.5
+  - texto: "Puede tratarse de una barrera, un rayo, un campo de energ\xEDa, un objeto
+      o cualquier otra estructura que utilice esta tecnolog\xEDa."
+    duracion: 4
+  - texto: Ci
+    duracion: 1
+  - texto: Ahora, tu arma secundaria.
+    duracion: 2
+  - texto: Tenemos algo mejor.
+    duracion: 2
+  - texto: "Mant\xE9n presionado LT para utilizar el ca\xF1\xF3n cargado."
+    duracion: 2.5
+  - texto: "El ca\xF1\xF3n libera una descarga concentrada capaz de afectar un \xE1rea
+      mucho mayor. Piensa en \xE9l como una bomba."
+    duracion: 5
+  - texto: "Pero hay una limitaci\xF3n."
+    duracion: 2
+  - texto: "El ca\xF1\xF3n utiliza munici\xF3n especial. Puedes llevar un m\xE1ximo
+      de tres cargas al mismo tiempo. "
+    duracion: 5
+  - texto: "Entonces LT no har\xE1 absolutamente nada."
+    duracion: 2
+  - texto: "Encontrando los suministros de munici\xF3n que aparecen durante el recorrido"
+    duracion: 4
+  - texto: Asi que no desperdicies las cargas contra el primer enemigo que veas.
+    duracion: 4
+  - texto: No eres un mapache...
+    duracion: 4
+  - texto: Bien, yo creo que ya te las puedes arreglar tu solo
+    duracion: 4
+  - texto: No
+    duracion: 1.5
+  - texto: No hagas eso...
+    duracion: 1.5
