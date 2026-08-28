@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa1058a81e33544bb6257c041c318a5, type: 3}
+  m_Name: Octo
+  m_EditorClassIdentifier: Assembly-CSharp::NPCData
+  nombreNPC: Octo
+  imageNPC: {fileID: 21300000, guid: 131c3e92e632776489b82224fe66b11a, type: 3}
+  fondoImagenNPC: {fileID: 21300000, guid: 9f57495d53c489346865613810fd9e69, type: 3}
+  fondoTexto: {fileID: 21300000, guid: fcfba45733944b9469d043250b3a61ee, type: 3}
+  dialogos:
+  - texto: "Ser\xE1n buenos d\xEDas para ti. Yo estuve ocupado. 1"
+    duracion: 3
+  - texto: Mejorando mis tiempos de vuelo. 2
+    duracion: 3
+  - texto: Exactamente. 3
+    duracion: 2
+  - texto: "\xBFRepasar? J0I, podr\xEDa volar esta nave con los ojos cerrados. 4"
+    duracion: 4
+  - texto: "Sab\xEDa que pod\xEDamos entendernos. 5"
+    duracion: 2
+  - texto: "\xBFEso es todo?"
+    duracion: 2
+  - texto: "Pens\xE9 que ibas a explicarme algo complicado."
+    duracion: 3
+  - texto: Muy graciosa.
+    duracion: 2
+  - texto: "Por fin algo que no necesita explicaci\xF3n."
+    duracion: 3
+  - texto: "\xBFProbablemente? 10"
+    duracion: 2
+  - texto: Ah. Mi parte favorita.
+    duracion: 3
+  - texto: "As\xED que puedo moverme en una direcci\xF3n y disparar hacia otra."
+    duracion: 4
+  - texto: "\xBFVes? Todo bajo control."
+    duracion: 2
+  - texto: 'Dame tiempo. '
+    duracion: 2
+  - texto: 'Finalmente. 15
+
+'
+    duracion: 2
+  - texto: "\xBFReducirla?"
+    duracion: 2
+  - texto: "No estoy segura de que esa filosof\xEDa sea para m\xED."
+    duracion: 4
+  - texto: 'Detalles '
+    duracion: 4
+  - texto: "Eso s\xED suena m\xE1s como yo. \n"
+    duracion: 3
+  - texto: "Ahora s\xED est\xE1s entendiendo mi estilo. 20"
+    duracion: 3
+  - texto: "\xBFY si simplemente acelero y paso por encima? \n"
+    duracion: 3
+  - texto: "Ese \"puedes intentarlo\" son\xF3 preocupantemente parecido a una amenaza."
+    duracion: 4
+  - texto: "\xBFM\xE1s importante que disparar? \n"
+    duracion: 2
+  - texto: Sencillo. 24
+    duracion: 2
+  - texto: "\xBFSon absorbidos? \n"
+    duracion: 2
+  - texto: Entonces cambio a blanco cuando vea proyectiles blancos.
+    duracion: 4
+  - texto: "As\xED que el color correcto puede convertir un ataque enemigo en energ\xEDa
+      para m\xED."
+    duracion: 4
+  - texto: "Eso s\xED es una mejora. "
+    duracion: 2
+  - texto: "\xBFDe qu\xE9 manera? \n"
+    duracion: 2
+  - texto: 'Blanco contra negro. 30
+
+'
+    duracion: 2
+  - texto: Entonces puedo cambiar de color dependiendo de lo que tenga enfrente.
+    duracion: 4
+  - texto: "Ya lo hab\xEDa entendido desde el principio. \n"
+    duracion: 3
+  - texto: "Sab\xEDa que hab\xEDa una trampa."
+    duracion: 2
+  - texto: "\xBFPor qu\xE9? \n"
+    duracion: 2
+  - texto: 'Ah. 35
+
+'
+    duracion: 1
+  - texto: 'Entonces tengo que coincidir con el color de la barrera. '
+    duracion: 4
+  - texto: "Entonces el color tambi\xE9n determina por d\xF3nde puedo pasar. "
+    duracion: 3
+  - texto: Eso cambia bastante las cosas.
+    duracion: 2
+  - texto: "\xBFTenemos una? "
+    duracion: 2
+  - texto: Te escucho 40
+    duracion: 1
+  - texto: 'Eso definitivamente es mejor. 41 '
+    duracion: 2.5
+  - texto: 'Siempre hay una 42 '
+    duracion: 2
+  - texto: "\xBFY si llego a cero? 43"
+    duracion: 2
+  - texto: "\xBFY c\xF3mo recupero munici\xF3n? 44\n"
+    duracion: 2
+  - texto: No prometo nada. Igual lo uso para explotar lunas 45
+    duracion: 2
+  - texto: 'Puedo hacerlo hasta con los ojos cerrados 46 '
+    duracion: 2
+  - texto: "\xBFNo? "
+    duracion: 2
+  - texto: Meno
+    duracion: 2
