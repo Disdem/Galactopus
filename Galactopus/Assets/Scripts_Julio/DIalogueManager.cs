@@ -18,11 +18,17 @@ public class DIalogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI uiTextoDialogo;
     [SerializeField] private Image uiFondoTexto;
 
-    [Header("Ajustes")]
-    [SerializeField] private float duracionEnPantalla = 4f;
+    [Header("Efecto maquina escribir")]
+    [SerializeField] private float velocidadEscritura = 0.03f;
+    [SerializeField] private AudioSource audioSource;
+
+    
+    //[Header("Ajustes")]
+    //[SerializeField] private float duracionEnPantalla = 4f;
+    
 
     private Dictionary<NPCData, int> indiceDialogos = new Dictionary<NPCData, int>();
-    private Coroutine corrutionaDcultar;
+    private Coroutine corrutinaAnimacion;
 
     private void Awake()
     {
@@ -30,6 +36,8 @@ public class DIalogueManager : MonoBehaviour
         else Destroy(gameObject);
 
         panelDialogo.SetActive(false);
+
+        if (audioSource == null) audioSource = GetComponent<AudioSource>();
     }
 
     public void MostrarSiguienteDialogo (NPCData npc)
@@ -56,8 +64,33 @@ public class DIalogueManager : MonoBehaviour
             indiceDialogos[npc]++;
             panelDialogo.SetActive(true);
 
-            if (corrutionaDcultar != null) StopCoroutine(corrutionaDcultar);
-            corrutionaDcultar = StartCoroutine(OcultarDialogoTardado(dialogoActual.duracion));
+            // Detiene cualquier animación previa si el jugador activa un nuevo diálogo rápidamente
+            if (corrutinaAnimacion != null) StopCoroutine(corrutinaAnimacion);
+
+            // Inicia la animación de escribir texto letra por letra con sonido
+            corrutinaAnimacion = StartCoroutine(EscribirTextoConSonido(dialogoActual, npc));
+        }
+    }
+    
+    private IEnumerator EscribirTextoConSonido(LineaDialogo dialogo, NPCData npc)
+    {
+        uiTextoDialogo.text = "";
+
+        if (audioSource != null && npc.sonidoVoz != null)
+        {
+            audioSource.pitch = npc.pitchVoz;
+        }
+
+        foreach (char letra in dialogo.texto.ToCharArray())
+        {
+            uiTextoDialogo.text += letra;
+
+            if (letra != ' ' && audioSource != null && npc.sonidoVoz != null)
+            {
+                audioSource.PlayOneShot(npc.sonidoVoz);
+            }
+
+            yield return new WaitForSeconds(velocidadEscritura);
         }
     }
 

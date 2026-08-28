@@ -19,5 +19,9 @@ public class NPCData : ScriptableObject
     public Sprite fondoImagenNPC;
     public Sprite fondoTexto;
 
+    [Header("Efecto de vox")]
+    public AudioClip sonidoVoz;
+    [Range(0.5f, 1.5f)] public float pitchVoz = 1f;
+
     public List<LineaDialogo> dialogos;
 }

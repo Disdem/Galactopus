@@ -16,6 +16,8 @@ MonoBehaviour:
   imageNPC: {fileID: 21300000, guid: 131c3e92e632776489b82224fe66b11a, type: 3}
   fondoImagenNPC: {fileID: 21300000, guid: 9f57495d53c489346865613810fd9e69, type: 3}
   fondoTexto: {fileID: 21300000, guid: fcfba45733944b9469d043250b3a61ee, type: 3}
+  sonidoVoz: {fileID: 8300000, guid: 4d0d63eab47ca0d40b40dff618c5306d, type: 3}
+  pitchVoz: 0.5
   dialogos:
   - texto: "Ser\xE1n buenos d\xEDas para ti. Yo estuve ocupado. 1"
     duracion: 3
