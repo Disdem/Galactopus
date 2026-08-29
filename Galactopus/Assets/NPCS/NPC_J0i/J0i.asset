@@ -16,6 +16,8 @@ MonoBehaviour:
   imageNPC: {fileID: 21300000, guid: 4689eafb0ec9e8b4c9c5596dc6d847e4, type: 3}
   fondoImagenNPC: {fileID: 21300000, guid: 709aa6bf33ee128419f61525a65e36c5, type: 3}
   fondoTexto: {fileID: 21300000, guid: 25f917c38401d0749826579382d1d97a, type: 3}
+  sonidoVoz: {fileID: 8300000, guid: ac0010aeff386b94aa3d6d9373d5a0d1, type: 3}
+  pitchVoz: 1.446
   dialogos:
   - texto: "Heeey, buenos d\xEDas. \xBFListo para otro d\xEDa lleno de situaciones
       que nos pueden quitar la vida?"
