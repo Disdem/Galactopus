@@ -13,112 +13,87 @@ MonoBehaviour:
   m_Name: Octo
   m_EditorClassIdentifier: Assembly-CSharp::NPCData
   nombreNPC: Octo
-  imageNPC: {fileID: 21300000, guid: 131c3e92e632776489b82224fe66b11a, type: 3}
+  imageNPC: {fileID: 21300000, guid: c3da2e82ba298fe4abe1b2916bf1e849, type: 3}
   fondoImagenNPC: {fileID: 21300000, guid: 9f57495d53c489346865613810fd9e69, type: 3}
   fondoTexto: {fileID: 21300000, guid: fcfba45733944b9469d043250b3a61ee, type: 3}
-  sonidoVoz: {fileID: 8300000, guid: 7378f4a42499e2e44ab7b8246f356ced, type: 3}
+  sonidoVoz: {fileID: 8300000, guid: d453f1d7b5f032a48bbb6c64a728caef, type: 3}
   pitchVoz: 1.466
   dialogos:
-  - texto: "Ser\xE1n buenos d\xEDas para ti. Yo estuve ocupado. 1"
-    duracion: 3
-  - texto: Mejorando mis tiempos de vuelo. 2
-    duracion: 3
-  - texto: Exactamente. 3
-    duracion: 2
-  - texto: "\xBFRepasar? J0I, podr\xEDa volar esta nave con los ojos cerrados. 4"
+  - texto: "Ser\xE1n buenos d\xEDas para ti. Yo estuve ocupado."
     duracion: 4
-  - texto: "Sab\xEDa que pod\xEDamos entendernos. 5"
-    duracion: 2
-  - texto: "\xBFEso es todo?"
-    duracion: 2
-  - texto: "Pens\xE9 que ibas a explicarme algo complicado."
-    duracion: 3
-  - texto: Muy graciosa.
-    duracion: 2
-  - texto: "Por fin algo que no necesita explicaci\xF3n."
-    duracion: 3
-  - texto: "\xBFProbablemente? 10"
-    duracion: 2
-  - texto: Ah. Mi parte favorita.
-    duracion: 3
-  - texto: "As\xED que puedo moverme en una direcci\xF3n y disparar hacia otra."
+    iconoTutorial: {fileID: 0}
+  - texto: Dormir es para cuando termine el trabajo.
     duracion: 4
-  - texto: "\xBFVes? Todo bajo control."
-    duracion: 2
-  - texto: 'Dame tiempo. '
-    duracion: 2
-  - texto: 'Finalmente. 15
-
-'
-    duracion: 2
-  - texto: "\xBFReducirla?"
-    duracion: 2
-  - texto: "No estoy segura de que esa filosof\xEDa sea para m\xED."
+    iconoTutorial: {fileID: 0}
+  - texto: No empieces.
     duracion: 4
-  - texto: 'Detalles '
+    iconoTutorial: {fileID: 0}
+  - texto: Habla.
     duracion: 4
-  - texto: "Eso s\xED suena m\xE1s como yo. \n"
-    duracion: 3
-  - texto: "Ahora s\xED est\xE1s entendiendo mi estilo. 20"
-    duracion: 3
-  - texto: "\xBFY si simplemente acelero y paso por encima? \n"
-    duracion: 3
-  - texto: "Ese \"puedes intentarlo\" son\xF3 preocupantemente parecido a una amenaza."
+    iconoTutorial: {fileID: 0}
+  - texto: Eso no ha cambiado.
     duracion: 4
-  - texto: "\xBFM\xE1s importante que disparar? \n"
-    duracion: 2
-  - texto: Sencillo. 24
-    duracion: 2
-  - texto: "\xBFSon absorbidos? \n"
-    duracion: 2
-  - texto: Entonces cambio a blanco cuando vea proyectiles blancos.
+    iconoTutorial: {fileID: 0}
+  - texto: Bien.
     duracion: 4
-  - texto: "As\xED que el color correcto puede convertir un ataque enemigo en energ\xEDa
-      para m\xED."
+    iconoTutorial: {fileID: 0}
+  - texto: Sigue hablando.
     duracion: 4
-  - texto: "Eso s\xED es una mejora. "
-    duracion: 2
-  - texto: "\xBFDe qu\xE9 manera? \n"
-    duracion: 2
-  - texto: 'Blanco contra negro. 30
-
-'
-    duracion: 2
-  - texto: Entonces puedo cambiar de color dependiendo de lo que tenga enfrente.
+    iconoTutorial: {fileID: 0}
+  - texto: "Al menos alguien entendi\xF3 que una nave debe ir r\xE1pido."
     duracion: 4
-  - texto: "Ya lo hab\xEDa entendido desde el principio. \n"
-    duracion: 3
-  - texto: "Sab\xEDa que hab\xEDa una trampa."
-    duracion: 2
-  - texto: "\xBFPor qu\xE9? \n"
-    duracion: 2
-  - texto: 'Ah. 35
-
-'
-    duracion: 1
-  - texto: 'Entonces tengo que coincidir con el color de la barrera. '
+    iconoTutorial: {fileID: 0}
+  - texto: "\xBFY si no esquivo?"
     duracion: 4
-  - texto: "Entonces el color tambi\xE9n determina por d\xF3nde puedo pasar. "
-    duracion: 3
-  - texto: Eso cambia bastante las cosas.
-    duracion: 2
-  - texto: "\xBFTenemos una? "
-    duracion: 2
-  - texto: Te escucho 40
-    duracion: 1
-  - texto: 'Eso definitivamente es mejor. 41 '
-    duracion: 2.5
-  - texto: 'Siempre hay una 42 '
-    duracion: 2
-  - texto: "\xBFY si llego a cero? 43"
-    duracion: 2
-  - texto: "\xBFY c\xF3mo recupero munici\xF3n? 44\n"
-    duracion: 2
-  - texto: No prometo nada. Igual lo uso para explotar lunas 45
-    duracion: 2
-  - texto: 'Puedo hacerlo hasta con los ojos cerrados 46 '
-    duracion: 2
-  - texto: "\xBFNo? "
-    duracion: 2
-  - texto: Meno
-    duracion: 2
+    iconoTutorial: {fileID: 0}
+  - texto: Anotado.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Contin\xFAa."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Mismo color. Absorbo.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: He sobrevivido a cosas peores.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Blanco contra negro. Negro contra blanco.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Eso s\xED lo recuerdo."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "\xBFResultado?"
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Entendido.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Entonces el color correcto tambi\xE9n decide por d\xF3nde puedo pasar."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "\xBFMunici\xF3n?"
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "\xBFY sin munici\xF3n?"
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Entonces no la desperdicio.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Nunca tuve problemas con eso.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: No soy suicida.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Tres cargas. Las guardar\xE9."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: J0I.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Ponme algo que pueda matar.
+    duracion: 4
+    iconoTutorial: {fileID: 0}

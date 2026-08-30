@@ -13,210 +13,160 @@ MonoBehaviour:
   m_Name: J0i
   m_EditorClassIdentifier: Assembly-CSharp::NPCData
   nombreNPC: J0I
-  imageNPC: {fileID: 21300000, guid: 4689eafb0ec9e8b4c9c5596dc6d847e4, type: 3}
+  imageNPC: {fileID: -6368692178082650430, guid: 7a6d303afebc43943a8319120c8afed7, type: 3}
   fondoImagenNPC: {fileID: 21300000, guid: 709aa6bf33ee128419f61525a65e36c5, type: 3}
   fondoTexto: {fileID: 21300000, guid: 25f917c38401d0749826579382d1d97a, type: 3}
-  sonidoVoz: {fileID: 8300000, guid: ac0010aeff386b94aa3d6d9373d5a0d1, type: 3}
-  pitchVoz: 1.446
+  sonidoVoz: {fileID: 8300000, guid: a81e76b2c894ed04499c4575583a7d78, type: 3}
+  pitchVoz: 1.255
   dialogos:
   - texto: "Heeey, buenos d\xEDas. \xBFListo para otro d\xEDa lleno de situaciones
       que nos pueden quitar la vida?"
     duracion: 4
-  - texto: "\xBFOcupado haciendo qu\xE9?"
-    duracion: 3
-  - texto: Ah, claro. Porque dormir, comer y descansar son actividades demasiado
-      convencionales para el mejor piloto de la galaxia.
+    iconoTutorial: {fileID: 0}
+  - texto: "\xBFOtra noche sin dormir?"
     duracion: 4
-  - texto: "Bien. Ya que terminaste de admirarte a ti mismo, s\xE9 que eres el mejor
-      piloto de la galaxia, pero tenemos que repasar algunas mejoras que le hice
-      a la nave."
+    iconoTutorial: {fileID: 0}
+  - texto: "Claro. Y beber hasta perder el conocimiento es tu forma de celebrar,
+      \xBFno?"
     duracion: 4
-  - texto: "Perfecto. Entonces esto ser\xE1 muy r\xE1pido."
-    duracion: 2
-  - texto: "Empezando por lo m\xE1s b\xE1sico."
-    duracion: 2
-  - texto: "Primero, el movimiento. Usa el joystick izquierdo para controlar la direcci\xF3n
-      de la nave."
+    iconoTutorial: {fileID: 0}
+  - texto: "Bien. S\xE9 que llevas m\xE1s a\xF1os pilotando de los que quieres admitir,
+      pero hice algunas mejoras a la nave. Conviene que sepas qu\xE9 hacen."
+    duracion: 5
+    iconoTutorial: {fileID: 0}
+  - texto: "Movimiento b\xE1sico. Joystick izquierdo para dirigir la nave."
     duracion: 4
-  - texto: "S\xED."
-    duracion: 2
-  - texto: "No quer\xEDa sobrecargarte tan temprano."
-    duracion: 3
-  - texto: "Lo s\xE9."
-    duracion: 2
-  - texto: "Puedes moverte libremente en todas las direcciones. No necesitas mantener
-      una posici\xF3n fija, as\xED que aprovecha el espacio."
+    iconoTutorial: {fileID: -3278349181384251914, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: "Puedes desplazarte libremente en cualquier direcci\xF3n."
     duracion: 4
-  - texto: "Tranquilo. Todav\xEDa no llegamos a la parte donde probablemente vas
-      a intentar hacer algo innecesariamente peligroso."
+    iconoTutorial: {fileID: 0}
+  - texto: No. Intento no arruinar lo que funciona.
     duracion: 4
-  - texto: Te conozco....
-    duracion: 2
-  - texto: Ahora vamos con el armamento.
-    duracion: 3
-  - texto: "Usa el joystick derecho para apuntar. La nave disparar\xE1 hacia la direcci\xF3n
-      que marques."
+    iconoTutorial: {fileID: 0}
+  - texto: "Joystick derecho para apuntar. Puedes moverte en una direcci\xF3n y disparar
+      hacia otra."
     duracion: 4
+    iconoTutorial: {fileID: 2143550986, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: RT dispara el arma principal.
+    duracion: 4
+    iconoTutorial: {fileID: 1924095763, guid: f09709f2ed00639489202339881330f7, type: 3}
+  - texto: "\xBFEso fue un \"bien\" o est\xE1s emocionalmente afectado?"
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "X reduce la velocidad. \xDAtil para maniobras precisas."
+    duracion: 4
+    iconoTutorial: {fileID: 410893291, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: "B activa el boost. \xDAsalo para acelerar r\xE1pidamente."
+    duracion: 4
+    iconoTutorial: {fileID: 792870536, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: "Tambi\xE9n entend\xED que normalmente intentas ir m\xE1s r\xE1pido de
+      lo necesario."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: 'Para maniobras evasivas: RB hace dash a la derecha.'
+    duracion: 4
+    iconoTutorial: {fileID: 1242865998, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: Y LB para el dash hacia la izquierda
+    duracion: 4
+    iconoTutorial: {fileID: -820816641, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: "\xDAsalos para esquivar fuego enemigo o reposicionarte."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Entonces tendr\xE1s una conversaci\xF3n mucho m\xE1s corta conmigo."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Ahora la modificaci\xF3n importante."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Pulsa A para alternar entre blanco y negro.
+    duracion: 4
+    iconoTutorial: {fileID: 422804783, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: "No es pintura. El color determina c\xF3mo interact\xFAas con la energ\xEDa."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Mientras seas blanco, los proyectiles blancos no pueden da\xF1arte. Los
+      absorbes y esa energ\xEDa carga tu ataque especial."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: En negro, ocurre lo mismo con los proyectiles negros.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Exacto. Si no quieres morir, recuerda esa parte.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Por eso todav\xEDa tengo trabajo."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "El color tambi\xE9n afecta tu armamento."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Disparar a un enemigo de color opuesto causa el doble de da\xF1o."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Correcto.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Y cuidado con los objetos de energ\xEDa."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Una nave blanca no puede atravesar una barrera negra. Una nave negra no
+      puede atravesar una barrera blanca.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Destrucci\xF3n instant\xE1nea."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "No son solamente paredes. Puede ser un rayo, un campo de energ\xEDa o
+      cualquier obst\xE1culo que utilice esta tecnolog\xEDa"
+    duracion: 4
+    iconoTutorial: {fileID: 0}
   - texto: Exactamente.
-    duracion: 1.5
-  - texto: Para disparar normalmente, utiliza RT.
-    duracion: 3
-  - texto: "RT dispara el arma principal. Puedes utilizarla de manera continua, as\xED
-      que no necesitas preocuparte por la munici\xF3n del disparo normal."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "\xDAltima modificaci\xF3n. LT activa el ca\xF1\xF3n cargado."
+    duracion: 4
+    iconoTutorial: {fileID: 1349566971, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: "Especial. Tienes un m\xE1ximo de tres cargas y debes recoger munici\xF3n
+      para recuperarlas"
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: LT no dispara.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Eso espero.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: Muy bien. Vamos a comprobar que sigues teniendo memoria.
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Curiosamente, s\xED con seguir instrucciones."
+    duracion: 4
+    iconoTutorial: {fileID: 0}
+  - texto: "Mu\xE9vete con el joystick izquierdo."
+    duracion: 4
+    iconoTutorial: {fileID: -3278349181384251914, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: Apunta con el derecho. RT para disparar.
+    duracion: 4
+    iconoTutorial: {fileID: 1924095763, guid: f09709f2ed00639489202339881330f7, type: 3}
+  - texto: Ahora cambia de color. Absorbe los proyectiles del mismo color y ataca
+      a los enemigos del color opuesto.
     duracion: 5
-  - texto: "Todav\xEDa no has roto nada. 19"
-    duracion: 2
-  - texto: Ahora hablemos de velocidad.
-    duracion: 2
-  - texto: 'Con X puedes reducir la velocidad de la nave. 21
-
-'
+    iconoTutorial: {fileID: 422804783, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: Y recuerda las barreras.
     duracion: 4
-  - texto: "S\xED. No siempre necesitas ir a m\xE1xima velocidad. 22\n"
-    duracion: 3
-  - texto: "No es una filosof\xEDa. Es f\xEDsica. 23\n"
-    duracion: 3
-  - texto: Y con B activas el boost. 24
-    duracion: 3
-  - texto: "El boost aumenta considerablemente tu velocidad. \xDAsalo para desplazarte
-      r\xE1pidamente, esquivar ataques o simplemente porque aparentemente no sabes
-      ir despacio."
-    duracion: 5
-  - texto: '....... 26
-
-'
-    duracion: 2
-  - texto: "Tambi\xE9n tienes dos maniobras evasivas. 27"
-    duracion: 2
-  - texto: Pulsa RB para hacer un dash hacia la derecha.
-    duracion: 3
-  - texto: Y LB para hacer un dash hacia la izquierda.
-    duracion: 3
-  - texto: "Son especialmente \xFAtiles para esquivar proyectiles o reposicionarte
-      r\xE1pidamente."
+    iconoTutorial: {fileID: 422804783, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: Eso es debatible.
     duracion: 4
-  - texto: "Son especialmente \xFAtiles para esquivar proyectiles o reposicionarte
-      r\xE1pidamente. 31"
+    iconoTutorial: {fileID: 0}
+  - texto: "Ah\xED tienes munici\xF3n para el ca\xF1\xF3n."
     duracion: 4
-  - texto: Puedes intentarlo.
-    duracion: 2
-  - texto: '...... 33
-
-'
-    duracion: 2
-  - texto: "Ahora viene una de las mejoras m\xE1s importantes de la nave."
-    duracion: 3
-  - texto: "Mucho m\xE1s. 35\n"
-    duracion: 2
-  - texto: "Tu nave puede cambiar instant\xE1neamente entre dos colores: blanco y
-      negro."
-    duracion: 5
-  - texto: Pulsa A para cambiar al color contrario.
+    iconoTutorial: {fileID: 1349566971, guid: 3d768c22140a01744941fea0e806d02a, type: 3}
+  - texto: Sorprendente.
     duracion: 4
-  - texto: "Si est\xE1s en blanco, A te cambia a negro."
-    duracion: 3
-  - texto: "Si est\xE1s en negro, A te devuelve al blanco."
-    duracion: 3
-  - texto: "Si est\xE1s en negro, A te devuelve al blanco. 40\n"
-    duracion: 3
-  - texto: "La parte sencilla termina aqu\xED."
-    duracion: 3
-  - texto: "Los colores no son solamente visuales. Determinan c\xF3mo interact\xFAas
-      con la energ\xEDa que te rodea."
-    duracion: 5
-  - texto: "Cuando tu nave est\xE1 en blanco, los proyectiles blancos no pueden da\xF1arte.
-      43\n"
+    iconoTutorial: {fileID: 0}
+  - texto: "\xBFS\xED Octo?"
     duracion: 4
-  - texto: 'Exactamente 44
-
-'
-    duracion: 2
-  - texto: "Los proyectiles blancos que entren en contacto contigo ser\xE1n absorbidos
-      por la nave y convertir\xE1n esa energ\xEDa en carga para tu ataque especial."
-    duracion: 5
-  - texto: 'Pero recuerda: esto solamente funciona mientras seas blanco. 46
-
-'
+    iconoTutorial: {fileID: 0}
+  - texto: Como diga capitan.
     duracion: 4
-  - texto: 'Correcto. 47
-
-'
-    duracion: 2
-  - texto: "Y cuando est\xE9s en negro, podr\xE1s absorber los proyectiles negros
-      de la misma manera."
-    duracion: 4
-  - texto: 'Exactamente. 49
-
-'
-    duracion: 2
-  - texto: "Pero la energ\xEDa tambi\xE9n afecta a tus ataques."
-    duracion: 3
-  - texto: "Cuando dispares a un enemigo de un color opuesto al tuyo, le infligir\xE1s
-      el doble de da\xF1o."
-    duracion: 5
-  - texto: 'Exactamente. 52
-
-'
-    duracion: 2
-  - texto: "Si tu nave est\xE1 en blanco y atacas a un enemigo negro, causar\xE1s
-      da\xF1o doble. 53\n"
-    duracion: 4
-  - texto: "Y si est\xE1s en negro y atacas a un enemigo blanco, ocurrir\xE1 lo mismo.
-      54"
-    duracion: 4
-  - texto: "Ahora lo est\xE1s entendiendo. 55\n"
-    duracion: 2
-  - texto: .....
-    duracion: 2
-  - texto: "Hay algo m\xE1s que debes recordar. 57\n"
-    duracion: 2
-  - texto: "No puedes atravesar objetos de energ\xEDa del color contrario. 58\n"
-    duracion: 3
-  - texto: "Por ejemplo, si tu nave est\xE1 en blanco y encuentras una barrera negra,
-      no intentes atravesarla."
-    duracion: 4
-  - texto: "Porque la nave ser\xE1 destruida. 60\n"
-    duracion: 3
-  - texto: Y ocurre lo mismo al contrario. 61
-    duracion: 2
-  - texto: "Si est\xE1s en negro, una barrera blanca destruir\xE1 la nave si intentas
-      atravesarla. 62"
-    duracion: 3
-  - texto: Exactamente. 63
-    duracion: 1.5
-  - texto: Y no pienses solamente en paredes.
-    duracion: 1.5
-  - texto: "Puede tratarse de una barrera, un rayo, un campo de energ\xEDa, un objeto
-      o cualquier otra estructura que utilice esta tecnolog\xEDa."
-    duracion: 4
-  - texto: Ci  66
-    duracion: 1
-  - texto: Ahora, tu arma secundaria. 67
-    duracion: 2
-  - texto: Tenemos algo mejor. 68
-    duracion: 2
-  - texto: "Mant\xE9n presionado LT para utilizar el ca\xF1\xF3n cargado."
-    duracion: 2.5
-  - texto: "El ca\xF1\xF3n libera una descarga concentrada capaz de afectar un \xE1rea
-      mucho mayor. Piensa en \xE9l como una bomba."
-    duracion: 5
-  - texto: "Pero hay una limitaci\xF3n. 71"
-    duracion: 2
-  - texto: "El ca\xF1\xF3n utiliza munici\xF3n especial. Puedes llevar un m\xE1ximo
-      de tres cargas al mismo tiempo. 72 "
-    duracion: 5
-  - texto: "Entonces LT no har\xE1 absolutamente nada. 73"
-    duracion: 2
-  - texto: "Encontrando los suministros de munici\xF3n que aparecen durante el recorrido
-      74"
-    duracion: 4
-  - texto: Asi que no desperdicies las cargas contra el primer enemigo que veas.
-    duracion: 4
-  - texto: No eres un mapache... 76
-    duracion: 4
-  - texto: Bien, yo creo que ya te las puedes arreglar tu solo 77
-    duracion: 4
-  - texto: No
-    duracion: 1.5
-  - texto: No hagas eso...
-    duracion: 1.5
+    iconoTutorial: {fileID: 0}
