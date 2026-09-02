@@ -4,7 +4,7 @@ public class StarFoxShootingController : MonoBehaviour
 {
     [Header("Referencias")]
     [SerializeField] private GameObject laserPrefab;
-    [SerializeField] private Transform[] firePoints;
+    [SerializeField] private Transform[] firePoints; // Uno o dos puntos, como el doble laser del Arwing
 
     [Header("Configuracion de Disparo")]
     [SerializeField] private float laserSpeed = 60f;
@@ -58,6 +58,7 @@ public class StarFoxShootingController : MonoBehaviour
 
         Destroy(laser, laserLifetime);
 
+        // Alterna entre puntos de disparo (efecto laser doble del Arwing)
         if (firePoints.Length > 1)
         {
             currentFirePointIndex = (currentFirePointIndex + 1) % firePoints.Length;
